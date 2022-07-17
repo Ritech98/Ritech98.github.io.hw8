@@ -1052,8 +1052,7 @@ img {
 .portfolio__list {
   display: grid;
   grid-template-columns: auto;
-  gap: 30px 30px;
-  align-items: stretch;
+  justify-content: space-between;
 }
 @media screen and (min-width: 480px) {
   .portfolio__list {
