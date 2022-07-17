@@ -43,6 +43,7 @@
   &__list {
     display:grid;
     grid-template-columns: auto;
+    align-items: stretch;
     justify-content: space-between;
 
     @media screen and (min-width: 480px) {

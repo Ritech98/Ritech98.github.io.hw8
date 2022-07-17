@@ -490,8 +490,7 @@ img {
 }
 
 .description-list {
-  justify-content: center;
-  grid-gap: 30px;
+  justify-content: space-between;
 }
 
 @media screen and (min-width: 480px) {
@@ -628,9 +627,8 @@ img {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  grid-gap: 30px;
 }
 
 .team-list__value {
@@ -659,7 +657,7 @@ img {
 }
 
 .team-list__team {
-  padding: 30px 0px;
+  padding: 30px;
 }
 
 .team-list__employee {
@@ -1052,6 +1050,7 @@ img {
 .portfolio__list {
   display: grid;
   grid-template-columns: auto;
+  align-items: stretch;
   justify-content: space-between;
 }
 @media screen and (min-width: 480px) {
